@@ -1,11 +1,11 @@
 import React from 'react';
+import Navbar from './components/Navbar.js';
 import './style.css';
 
 export default function App() {
   return (
     <div>
-      <h1>Hello StackBlitz World!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <Navbar />
     </div>
   );
 }

@@ -1,13 +1,17 @@
 import React from 'react';
 
-let keyboardImg = require('./../images/keyboard.jpg');
-
-const Intro = ({}) => {
+const Intro = () => {
   return (
     <div className="container-fluid">
       <div className="row">
         <div className="col-3">
-          <img src={keyboardImg} alt="image not found" />
+          <div className="container">
+            <img
+              className="img-fluid"
+              src="https://ctechhosting.com/images-354/keyboard.jpg"
+              alt="image not found"
+            />
+          </div>
         </div>
         <div className="col-8">
           <p>

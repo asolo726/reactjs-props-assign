@@ -3,6 +3,7 @@ import { useState } from 'react';
 
 import Navbar from './components/Navbar.js';
 import Intro from './components/Intro.js';
+import Blogs from './components/Blogs.js';
 import TechSkills from './components/TechSkills.js';
 import './style.css';
 
@@ -29,6 +30,7 @@ export default function App() {
     <div>
       <Navbar />
       <Intro />
+      <Blogs />
       <TechSkills imageList={images} />
     </div>
   );

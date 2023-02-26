@@ -14,7 +14,7 @@ const Intro = () => {
           </div>
         </div>
         <div className="col-8">
-          <p>
+          <p className="">
             Jim Bob is a dynamic developer, a lifelong learner and an
             experienced public cloud developer. He can bring skills to your team
             to mentor others. Lead other team members to develop their skills.
